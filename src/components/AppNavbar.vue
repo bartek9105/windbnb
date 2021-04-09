@@ -24,7 +24,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   max-width: 1248px;
-  margin: 0 auto;
+  margin: 0 auto 3.75rem auto;
   padding-top: 2rem;
 }
 </style>
