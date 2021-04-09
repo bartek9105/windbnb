@@ -1,23 +1,28 @@
 <template>
   <div class="navbar">
     <app-logo />
-    <div class="searchbar"></div>
+    <app-search-bar />
   </div>
 </template>
 
 <script>
 import AppLogo from '@/components/AppLogo'
+import AppSearchBar from '@/components/AppSearchBar'
 
 export default {
   name: 'AppNavbar',
   components: {
-    AppLogo
+    AppLogo,
+    AppSearchBar
   }
 }
 </script>
 
 <style lang="scss" scoped>
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1248px;
   margin: 0 auto;
   padding-top: 2rem;
