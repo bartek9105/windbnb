@@ -4,15 +4,20 @@
     <div class="search-wrapper">
       <div class="search">
         <input type="text" />
-        <button></button>
+        <search-button />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import SearchButton from '@/components/SearchButton'
+
 export default {
-  name: 'AppSearchFull'
+  name: 'AppSearchFull',
+  components: {
+    SearchButton
+  }
 }
 </script>
 
