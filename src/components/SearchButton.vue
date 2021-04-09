@@ -1,6 +1,6 @@
 <template>
   <button type="submit" class="btn">
-    <search-icon size="1x" class="search-icon"></search-icon>
+    <search-icon size="1.25x" class="search-icon"></search-icon>
     <span>Search</span>
   </button>
 </template>
